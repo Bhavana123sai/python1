@@ -1,0 +1,11 @@
+a=[2,3,1,5,3]
+n=True
+for i in range(len(a)-1):
+    if a[i]<a[i+1] and i%2==0:
+        n=True
+    elif a[i]>a[i+1] and i%2==1:
+        n=True
+    else:
+        n=False
+        break
+print(n)
