@@ -1,0 +1,9 @@
+print("the largest value is:",maxi)
+print("the second largest value is:",mini)
+a={}
+n=int(input())
+for i in range(n):
+    key=input("enter name")
+    value=list(map(int,input().split()))
+    a[key]=value
+print(a)
